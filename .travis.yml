@@ -13,7 +13,7 @@ script:
   tar xzf qemu-arm-static.tar.gz &&
   popd
 # build image
-- docker build -t thelimeburner/ies-learning-base:build -f Dockerfile.v5 .
+- travis_wait 30 docker build -t thelimeburner/ies-learning-base:build -f Dockerfile.v5 .
 # test image
 - docker run thelimeburner/ies-learning-base:build uname -a
 # push image
