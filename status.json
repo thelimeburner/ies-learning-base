@@ -1,0 +1,24 @@
+{
+    "0":{
+        "name" : "ies-learning-base:armv7l",	
+        "version" : "0.1",
+        "architecture"	: "armv7l",
+        "device"		: "v0.5",
+        "context"		: "Used to build other images",
+        "application"		: "--",
+        "status"		: "Built",
+        "image" 	: "thelimeburner/ies-learning-base:armv7l",
+        "source"	: "./ies-learning-base"
+    },
+    "1":{
+        "name" : "ies-learning-base:arm64v8",	
+        "version" : "0.1",
+        "architecture"	: "arm64v8",
+        "device"		: "v0.6",
+        "context"		: "Used to build other images",
+        "application"		: "--",
+        "status"		: "Built",
+        "image" 	: "thelimeburner/ies-learning-base:armv7l",
+        "source"	: "./ies-learning-base"
+        }
+}
